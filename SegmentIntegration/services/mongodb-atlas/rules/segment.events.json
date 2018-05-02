@@ -1,0 +1,35 @@
+{
+    "id": "5ae9ec14b8b9982a95a5620b",
+    "namespace": "segment.events",
+    "filters": [
+        {
+            "match_expression": {
+                "owner_id": "%%user.id"
+            },
+            "when": {
+                "%%true": true
+            }
+        }
+    ],
+    "fields": {
+        "owner_id": {
+            "valid": {
+                "%or": [
+                    {
+                        "%%prev": "%%user.id"
+                    },
+                    {
+                        "%%prev": {
+                            "%exists": false
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "other_fields": {},
+    "write": {},
+    "read": {
+        "owner_id": "%%user.id"
+    }
+}

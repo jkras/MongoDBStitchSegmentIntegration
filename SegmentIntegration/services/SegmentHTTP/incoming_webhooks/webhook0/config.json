@@ -1,0 +1,12 @@
+{
+    "id": "5ae8a8c38f25b9dc5cb606bf",
+    "name": "webhook0",
+    "run_as_user_id": "",
+    "run_as_user_id_script_source": "",
+    "options": {
+        "httpMethod": "POST",
+        "secret": "<PUBLIC_SECRET_HERE>",
+        "secretAsQueryParam": true
+    },
+    "respond_result": false
+}
