@@ -1,7 +1,7 @@
 # Integrated Segment, MongoDB Stitch, and MongoDB Atlas
 This is an example repo designed to be used in conjunction with this [post](https://www.mongodb.com/blog/post/how-to-integrate-mongodb-atlas-and-segment-using-mongodb-stitch).
 
-We use MongoDB Stitch to connect Segment to Atlas, MongoDB’s database as a service, via a custom webhook. This exercise does require the deployment of any servers.
+We use MongoDB Stitch to connect Segment to Atlas, MongoDB’s database as a service, via a custom webhook. This exercise does not require the deployment of any servers.
 
 ## Folder Structure
 FlayvaDemo - contains a simple html page that a user can add JavaScript into to track user generated events.
