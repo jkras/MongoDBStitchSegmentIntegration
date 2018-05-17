@@ -5,7 +5,9 @@ We use MongoDB Stitch to connect Segment to Atlas, MongoDB’s database as a ser
 
 ## Folder Structure
 FlayvaDemo - contains a simple html page that a user can add JavaScript into to track user generated events.
-SegmentIntegration - contains an export of the MongoDB Stitch application we used as part of this demo. /Note: all api keys have been removed so you will need to create your own for this work./
+SegmentIntegration - contains an export of the MongoDB Stitch application we used as part of this demo. 
+
+Note: all API keys have been removed so you will need to create your own for this work.
 
 ## Products Used
 1. [MongoDB Stitch](https://www.mongodb.com/stitch)
